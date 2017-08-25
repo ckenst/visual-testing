@@ -3,7 +3,7 @@ require 'selenium-webdriver'
 
 # Initialize the eyes SDK and set your private API key.
 eyes = Applitools::Selenium::Eyes.new
-eyes.api_key = '0g99qgVf3105jeCcKmqDFW8ywTzR1n3wxWoO0IYE7Su04w110'
+eyes.api_key = '<insert_key>'
 
 # Open a Chrome Browser in my local docker container
 caps = Selenium::WebDriver::Remote::Capabilities.send("chrome")
