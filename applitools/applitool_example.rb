@@ -5,9 +5,8 @@ require 'selenium-webdriver'
 eyes = Applitools::Selenium::Eyes.new
 eyes.api_key = ENV['APPLITOOL_KEY']
 
-# Open a Chrome Browser in my local docker container
-caps = Selenium::WebDriver::Remote::Capabilities.send("chrome")
-web_driver = Selenium::WebDriver.for(:remote, url: "http://0.0.0.0:32768/wd/hub", desired_capabilities: caps)
+# Opens a browser in Chrome.
+web_driver = Selenium::WebDriver.for :chrome
 
 
 begin
