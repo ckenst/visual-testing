@@ -1,3 +1,3 @@
 # Visual Testing Examples
 
-Example tests using visual automated testing. 
+Automated visual comparisons testing examples. Mostly using Applitools.
